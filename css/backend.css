@@ -1,0 +1,340 @@
+/*start body*/
+body{
+    background-color: #f3f3f3;
+    font-size: 16px
+}
+/*end body*/
+
+
+/*edit bootstrap
+begin bootstrp*/
+
+
+/*navbar begin */
+.navbar{
+    border-radius:0;
+    margin-bottom: 0;
+    
+
+
+}
+
+/* border focus with button*/
+.down:focus {
+  outline: none;
+}
+/* border focus with button*/
+
+
+
+.nav>li>a,.navbar-brand{
+    padding: 15px 12px;
+}
+
+.navbar-brand{
+    font-size: 16px;
+}
+.navbar-brand .halfname{
+    color:green;
+    font-size: 18px;
+    animation: chngColor 2s infinite linear;
+}
+.navbar-brand .fhalfname{
+    color:white;
+    
+}
+@keyframes chngColor{
+    0%,100%:{
+        color:green;}
+    50%{
+        color: white;
+    }
+}
+.navbar-inverse .navbar-nav > .open>a,
+.navbar-inverse .navbar-nav > .open > a:focus,
+.navbar-inverse .navbar-nav > .open > a:hover{
+    
+    background-color: #112735;
+}
+.navbar-brand{
+    border:none;
+}
+.dropdown-menu{
+    background-color: #bdc3c7;
+   padding: 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 0;
+    position: relative;
+    overflow: visible;
+}
+.dropdown-menu > li > a{
+    padding: 10px 15px;
+   
+}
+
+
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover{
+    color: #999;
+    background-color: #bdc3c7;
+    
+}
+/*end bootstrap*/
+.asterisk{
+    font-size: 30px;
+    position: absolute;
+    right: 22px;
+    top: -1px;
+    color: #e39090;
+
+
+}
+.form-control{
+    position: relative;
+}
+/*navbar end */
+
+/*header begin */
+.container .nabil{
+    color:white;
+    text-align: center;
+     margin-top: 110px;
+    position: absolute;
+    z-index: 999;
+    border: 2px gray solid;
+    animation: borderclr 4s infinite linear;
+    margin-bottom: 
+
+}
+
+
+@keyframes borderclr{
+    0%,100%{
+        border-color: white gray gray gray; 
+    }
+    25%{
+         border-color: gray white gray gray;
+    }
+    50%{
+         border-color: gray gray white gray;
+    }
+    75%{
+        border-color: gray gray gray white;
+    }
+}
+/*header end */
+h3{
+    
+    clear: both;
+    float: left;
+    margin-top: 800px ;
+  
+    position: relative;
+}
+
+.cl{
+overflow: hidden;id='theAbout'
+    clear: both;
+}
+.clr{
+    clear: both;
+    z-index: 0;
+}
+
+
+/*hidden begin */
+#hiddendiv{
+    height: 350px;
+}
+/*hidden end */
+
+
+/*hr begin */
+hr{
+
+    float: left;
+    clear: both;
+    margin-top: 255px; 
+    height: 1px;
+   display: inline-block;
+   color:red;
+  background-color: gray;
+  width: 100%;
+  margin-bottom: 0;
+}
+/*hr end */
+#theAbout{
+    margin-top: 0;
+}
+/*section about me start */
+section{
+   overflow: auto;
+    
+}
+/*section cv  start */
+#theAbout .itbuton{
+   margin: 0 auto;
+   padding-bottom: 35px
+}
+#theAbout .itbuton a{background:none;
+    border:2px solid #2dcc70;
+    color:#2dcc70;
+     text-decoration: none;
+     padding: 10px }
+/*section cv  end */
+
+
+/*section about me end */
+
+button{
+    margin-bottom: 10px;
+    padding: 12px;
+    background-color: blue
+}
+
+
+/*section slider  start */
+
+
+#cert{
+
+    margin-top: 1px;
+ color: #baffac;
+ background-color: #97B3B3;
+ padding-bottom: 35px;
+}
+
+
+.carousel-inner div{
+
+text-align: center;
+width: 70%;
+padding-left: 25%; 
+position: relative;
+
+}
+
+.mycertif {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+ 
+
+}
+.mycertif h2{
+   padding-bottom: 30px;
+    padding-top: 30px;
+
+    }
+/*section slider me end */
+
+
+/*section skills  start */
+
+
+.myskills{
+    overflow: hidden;
+    background-color: #618a78;
+    padding-bottom : 15px;
+    margin-top: 1px;
+     
+}
+.startskills {
+    margin-right:16%; 
+}
+.startskills h1{
+     text-align: center;
+     color: #d5d6d7;
+     margin: 10px 0 10px 0 ;
+     font-size: 45px
+}
+
+.myskills .imgs {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+   padding-bottom: 5px;
+
+}
+.myskills .imgs .imgit{
+    
+    
+}
+
+.myskills .imgs img{
+        margin-top: 10%;
+       margin-bottom: 10%;
+       animation: checkpics 5s linear infinite;
+    }
+
+@keyframes checkpics {
+    0%,50%,100%{
+        margin-top: 10%;
+       margin-bottom: 10%;
+    }
+    25%{
+         margin-top: 5%;
+       margin-bottom: 15%;
+    }
+     75%{
+         margin-top: 15%;
+       margin-bottom: 5%;
+    }
+}
+
+/*section skills  end */
+
+/*section contact  start */
+
+.theContact{
+    margin-top: 1px;
+    background-color: black;
+
+}
+
+.theContact .contact{
+    width: 80%;
+    height:80%;
+    margin:50px 0;
+}
+
+/*end form*/
+
+/*start input*/
+.theContact .form-control{
+    background-color: #e5e5e5;
+    margin-bottom: 10px;
+}
+/*end input*/
+/*section contact  end */
+
+/*start footer*/
+footer{
+  background-color:#112735; 
+  color: white;
+
+}
+footer a{
+  margin-left: 5%;
+}
+footer .infooter{
+  width: 40%;margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px
+}
+
+footer .infooter a{
+  outline: none
+}
+
+footer .infooter a li{
+  color: white;
+}
+/*end footer*/
+.particles-js{  
+   -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;}
