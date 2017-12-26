@@ -206,7 +206,7 @@
   $mail->Port       = 465;     
   $mail->IsHTML(true);              // set the SMTP port for the GMAIL server
   $mail->Username   = "nabilfawzy14@gmail.com";  // GMAIL username
-  $mail->Password   = "KendaAlloush1";            // GMAIL password
+  $mail->Password   = "";            // GMAIL password
 
   $mail->AddAddress('nabilfawzy507@gmail.com', 'Nabil Fawzy');
   $mail->SetFrom($email, $name);
